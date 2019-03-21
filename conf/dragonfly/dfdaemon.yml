@@ -1,0 +1,19 @@
+registries:
+    - regx: ^dfdaemon.com$
+      schema: https
+      host: zjharbor.com
+    - regx: ^zjharbor.com$
+      schema: https
+      host: zjharbor.com
+      certs: 
+        - the_path_of_certificate_file
+    - regx: ^registry.cn-hangzhou.aliyuncs.com$
+      schema: https
+      host: registry.cn-hangzhou.aliyuncs.com
+    - regx: ^aliregistry.oss-cn-hangzhou.aliyuncs.com$
+      schema: https
+      host: aliregistry.oss-cn-hangzhou.aliyuncs.com
+    - regx: ^dockerauth.cn-hangzhou.aliyuncs.com$
+      schema: https
+      host: dockerauth.cn-hangzhou.aliyuncs.com
+
